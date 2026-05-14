@@ -20,3 +20,16 @@ optional arguments:
 Example:
 
 bcc.py ATBA_ACICU.gff "6,768 ... 7,437" ACICU_RS00025 -o ATBA_ACICU.bcc
+
+# bcc_plus.py
+Program finds ori and calculates bacterial chromosome coordinates from given .gff file
+usage: bcc.py [-h] [-o O] gff 
+
+positional arguments:
+
+  gff         Name of input .gff file downloaded from GenBank or created by prokka
+
+optional arguments:
+
+  -h, --help  show this help message and exit
+  -o O        output file
